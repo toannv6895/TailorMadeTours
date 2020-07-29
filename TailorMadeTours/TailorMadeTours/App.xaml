@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:TailorMadeTours"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <DataTemplate x:Key="TourTemplate">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="{Binding ImageUri}" MinWidth="300" Stretch="UniformToFill"/>
+                <TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
+            </StackPanel>
+        </DataTemplate>
     </Application.Resources>
 </Application>
