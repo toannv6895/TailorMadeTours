@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TailorMadeTours"
+        xmlns:Views="clr-namespace:TailorMadeTours.UserControls"
         mc:Ignorable="d"
         Title="Tailor-made Tours" Height="700" Width="800" WindowState="Maximized" FontSize="18">
     <Grid>
@@ -14,7 +15,7 @@
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
                 <TabItem Header="Details">
-                    
+                    <Views:DetailView/>
                 </TabItem>
                 <TabItem Header="Weekly Calender">
                     <Grid Background="Orange"/>
