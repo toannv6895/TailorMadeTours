@@ -12,7 +12,7 @@
             <TextBlock TextWrapping="Wrap" Text="Tailor-made Tours - Chicago" FontSize="24" FontWeight="Bold"/>
             <TabControl x:Name="tabControl" MinHeight="680">
                 <TabItem Header="Tour Stops">
-                    <Grid Background="#FFE5E5E5"/>
+                    <Views:TourStopsView/>
                 </TabItem>
                 <TabItem Header="Details">
                     <Views:DetailView/>
